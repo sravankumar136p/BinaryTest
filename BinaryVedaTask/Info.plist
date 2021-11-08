@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BarlowCondensed-ExtraLight.ttf</string>
+		<string>Barlow-Black.ttf</string>
+		<string>Barlow-BlackItalic.ttf</string>
+		<string>Barlow-Bold.ttf</string>
+		<string>Barlow-BoldItalic.ttf</string>
+		<string>Barlow-ExtraBold.ttf</string>
+		<string>Barlow-ExtraBoldItalic.ttf</string>
+		<string>Barlow-ExtraLight.ttf</string>
+		<string>Barlow-ExtraLightItalic.ttf</string>
+		<string>Barlow-Italic.ttf</string>
+		<string>Barlow-Light.ttf</string>
+		<string>Barlow-LightItalic.ttf</string>
+		<string>Barlow-Medium.ttf</string>
+		<string>Barlow-MediumItalic.ttf</string>
+		<string>Barlow-Regular.ttf</string>
+		<string>Barlow-SemiBold.ttf</string>
+		<string>Barlow-SemiBoldItalic.ttf</string>
+		<string>Barlow-Thin.ttf</string>
+		<string>Barlow-ThinItalic.ttf</string>
+		<string>BarlowCondensed-Light.ttf</string>
+		<string>BarlowCondensed-Medium.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
