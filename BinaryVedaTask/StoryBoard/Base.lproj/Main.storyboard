@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kRp-90-tAz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kRp-90-tAz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,6 +51,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vau-dZ-3c5"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="landignTableView" destination="L1N-zy-SED" id="Uun-8a-5yR"/>
                     </connections>
@@ -62,10 +63,10 @@
         <!--Navigation Controller-->
         <scene sceneID="gEc-0i-LB2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kRp-90-tAz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="kRp-90-tAz" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R3t-MF-sfZ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -224,6 +225,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="A0g-pG-Baj"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="profileTableView" destination="zE5-8v-JRo" id="tR8-xB-Xzn"/>
                     </connections>

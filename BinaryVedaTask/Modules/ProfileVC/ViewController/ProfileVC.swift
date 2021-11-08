@@ -169,7 +169,7 @@ extension ProfileVC: UIImagePickerControllerDelegate,UINavigationControllerDeleg
             
             selectedImage = pickedImage
             let imageData = self.selectedImage.jpegData(compressionQuality: 0.1)
-            self.imageBase64String = imageData?.base64EncodedString() as! String
+            self.imageBase64String = imageData?.base64EncodedString() ?? ""
             self.profileTableView.reloadData()
         }
         picker.dismiss(animated: true, completion: nil)

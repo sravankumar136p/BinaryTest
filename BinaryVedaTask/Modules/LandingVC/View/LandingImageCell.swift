@@ -6,7 +6,7 @@
 //
 
 import UIKit
-protocol LandingTopDelegate: class {
+protocol LandingTopDelegate: AnyObject {
     func registerButtonTapped()
 }
 class LandingImageCell: UITableViewCell {
